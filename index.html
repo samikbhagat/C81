@@ -1,23 +1,27 @@
-<!DOCTYPE html>
 <html>
 
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-	<title>C81</title>
-	<link rel="stylesheet" type="text/css" href="C81style.css">
+    <script type="text/javascript">
+    </script>
+
 </head>
 
 <body class="body_backgorund">
 
-	<center>
-		<h1>My First Canvas</h1>
-		<canvas id="myCanvas" width="800" height="600"> </canvas> <br>
-		<!--ADDITIONAL ACTIVITY --> <span>Color - </span> <input type="text" id="color"> <br> <button
-			onclick="clearArea();">Clear</button>
-	</center>
+    <div align="center">
+        <h1>Paint</h1>
 
+        <canvas id="myCanvas" width="800" height="600"></canvas>
+        <br><br>
 
-	<script src="C81main.js"></script>
+        <!--Additional activity -->
+        <span>Color - </span> <input type="text" id="color"> <span>Width Of the line - </span> <input type="text"
+            id="width_of_line"> <button onclick="clearArea();">Clear Area</button>
+
+    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
